@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//union 的存放顺序是所有成员从低地址开始存放，各个数据利用同一个地址空间
 int main (int argc, char *argv[])
 {
 	union NUM
